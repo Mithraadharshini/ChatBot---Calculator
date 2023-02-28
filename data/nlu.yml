@@ -1,0 +1,168 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: addition
+  examples: |
+    - What is {number1} plus {number2}?
+    - Add {number1} and {number2}.
+    - {number1} + {number2}
+    - Sum of {number1} and {number2}
+
+- intent: subtraction
+  examples: |
+    - What is {number1} minus {number2}?
+    - Subtract {number2} from {number1}.
+    - {number1} - {number2}
+
+- intent: multiplication
+  examples: |
+    - What is {number1} multiplied by {number2}?
+    - Multiply {number1} and {number2}.
+    - {number1} * {number2}
+
+- intent: division
+  examples: |
+    - What is {number1} divided by {number2}?
+    - Divide {number1} by {number2}.
+    - {number1} / {number2}
+
+- intent: square
+  examples: |
+    - What is the square of {number}?
+    - {number} squared
+    - Square of {number}
+
+- intent: square_root
+  examples: |
+    - What is the square root of {number}?
+    - Square root of {number}
+    - Root of {number}
+
+- intent: deny
+  examples: |
+    - no
+    - absolutely not
+- intent: inform
+  examples: |
+    - My name is John
+    - I am from New York
+- intent: request_number
+  examples: |
+    - Can you give me a number?
+    - Please give me a number
+- intent: provide_number
+  examples: |
+    - Here is my number: [123](number)
+    - The number is [456](number)
+- intent: ask_operator
+  examples: |
+    - What is the operator for addition?
+    - How do I add two numbers?
+- intent: provide_operator
+  examples: |
+    - The operator for addition is '+'
+- intent: compute
+  examples: |
+    - What is the sum of [123](number) and [456](number)?
+    - Compute [345](number) minus [123](number)
+- intent: ask_math
+  examples: |
+    - What is 2+2?
+    - Can you calculate 7-3?
+- intent: ask_help
+  examples: |
+    - Can you help me with something?
+    - I need some help
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
