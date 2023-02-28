@@ -2,7 +2,7 @@
 • This is a simple chat bot to perform fundamental mathematical operations.
 • Have done the chatbot with python and flask and also another one with rasa
 # Framework used:
-• python
+* • python
 • flask
 • rasa
 • html
